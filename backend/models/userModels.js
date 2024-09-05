@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import {union} from "zod"
 import bcrypt from "bcrypt"
 
 const userSchema = new mongoose.Schema({
